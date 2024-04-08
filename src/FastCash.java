@@ -40,38 +40,38 @@ public class FastCash extends JFrame implements ActionListener {
 			transText.setFont(new Font("Arial",Font.BOLD,30));
 			add(transText);
 			
-			//JButton £10
-			tenButton= new JButton("£10");
+			//JButton ï¿½10
+			tenButton= new JButton("Â£10");
 			tenButton.setBounds(frameLength-460, frameHeight-300, itemLength, itemLength-70);		
 			tenButton.addActionListener(this);
 			add(tenButton);
 			
-			//JButton £20
-			twentyButton= new JButton("£20");
+			//JButton Â£20
+			twentyButton= new JButton("Â£20");
 			twentyButton.setBounds(frameLength-240, frameHeight-300, itemLength, itemLength-70);		
 			twentyButton.addActionListener(this);
 			add(twentyButton);
 			
-			//JButton £30
-			thirtyButton= new JButton("£30");
+			//JButton ï¿½30
+			thirtyButton= new JButton("Â£30");
 			thirtyButton.setBounds(frameLength-460, frameHeight-250, itemLength, itemLength-70);		
 			thirtyButton.addActionListener(this);
 			add(thirtyButton);
 			
-			//JButton £40
-			fourtyButton= new JButton("£40");
+			//JButton ï¿½40
+			fourtyButton= new JButton("Â£40");
 			fourtyButton.setBounds(frameLength-240, frameHeight-250, itemLength, itemLength-70);		
 			fourtyButton.addActionListener(this);
 			add(fourtyButton);
 			
-			//JButton £50
-			fiftyButton= new JButton("£50");
+			//JButton ï¿½50
+			fiftyButton= new JButton("Â£50");
 			fiftyButton.setBounds(frameLength-460, frameHeight-200, itemLength, itemLength-70);		
 			fiftyButton.addActionListener(this);
 			add(fiftyButton);
 			
-			//JButton £100
-			hundredButton= new JButton("£100");
+			//JButton ï¿½100
+			hundredButton= new JButton("Â£100");
 			hundredButton.setBounds(frameLength-240, frameHeight-200, itemLength, itemLength-70);		
 			hundredButton.addActionListener(this);
 			add(hundredButton);
@@ -130,7 +130,7 @@ public class FastCash extends JFrame implements ActionListener {
 					
 					statement1.executeUpdate();
 					
-					JOptionPane.showMessageDialog(null, "£"+amount+" Withdrawn Successfully");
+					JOptionPane.showMessageDialog(null, "ï¿½"+amount+" Withdrawn Successfully");
 					
 					setVisible(false);
 					new Transactions(pinNumber).setVisible(true);
