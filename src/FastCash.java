@@ -18,6 +18,7 @@ public class FastCash extends JFrame implements ActionListener {
 		private static final int frameHeight=400;
 		private static final int itemLength=100;
 		private static final int itemHeight=100;
+		private static final int test=0;
 		
 		//Elements Input
 		private JButton tenButton;
